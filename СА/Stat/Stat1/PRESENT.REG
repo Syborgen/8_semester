@@ -1,0 +1,112 @@
+REM     FIRST CLEAR THE SCREEN
+be cls
+be sa bright yellow on black
+REM beep /f523 /d1
+REM beep /f523 /d1
+REM BEEP /f524 /D1
+REM rowcol 10,0 "ДонГУ                                              представляет...    "
+ REM  delay 4
+ REM rowcol 10,0 "ДонГУ                                           представляет...    "
+ REM delay 4
+ REM rowcol 10,0 "ДонГУ                                        представляет...    "
+ REM delay 4
+ REM rowcol 10,0 "ДонГУ                                   представляет...     "
+ REM delay 4
+ REM rowcol 10,0 "ДонГУ                               представляет...    "
+ REM delay 4
+ REM rowcol 10,0 "ДонГУ                           представляет...    "
+ REM delay 4
+ REM rowcol 10,0 "ДонГУ                       представляет...    "
+ REM delay 4
+ REM rowcol 10,0 "ДонГУ                   представляет...    "
+ REM delay 4
+ REM rowcol 10,0 "ДонГУ               представляет...    "
+ REM delay 4
+ REM rowcol 10,0 "ДонГУ           представляет...    "
+ REM delay 4
+ REM rowcol 10,0 "ДонГУ       представляет...    "
+ REM delay 4
+ REM rowcol 10,0 "ДонГУ   представляет...    "
+ REM delay 4
+
+rem rowcol 10,0
+rem printchar " " 30
+
+REM    DRAW THE WINDOW ON THE SCREEN
+rem window 5,10,19,69 BLACK on GREEN explode
+
+REM     AND PUT SOME TEXT IN IT.
+rem rowcol 12,30 "V.N.REUTOV  PRESENTS !" bri WHITE
+rem rowcol 14,39 "1991" bri WHITE
+
+rem delay 7
+REM     NOW PUT A BORDER OF WINDOWS AROUND THE CENTER
+
+REM window 0,0,4,9 bright cyan  explode
+REM window 0,10,4,19 magenta   explode
+REM window 0,20,4,29 bright cyan explode
+REM window 0,30,4,39 magenta  explode
+REM window 0,40,4,49 bright cyan explode
+REM window 0,50,4,59 magenta  explode
+REM window 0,60,4,69 bright cyan explode
+REM window 0,70,4,79 magenta  explode
+REM window 5,70,9,79 bright cyan explode
+REM window 10,70,14,79 magenta  explode
+REM window 15,70,19,79 bright cyan explode
+REM window 20,70,24,79 magenta  explode
+REM window 20,60,24,69 bright cyan explode
+REM window 20,50,24,59 magenta  explode
+REM window 20,40,24,49 bright cyan explode
+REM window 20,30,24,39 magenta  explode
+REM window 20,20,24,29 bright cyan explode
+REM window 20,10,24,19 magenta  explode
+REM window 20,0,24,9 bright cyan explode
+REM window 15,0,19,9 magenta  explode
+REM window 10,0,14,9 bright cyan explode
+REM window 5,0,9,9 magenta  explode
+
+REM     PUT A NEW WINDOW IN THE MIDDLE
+window 6,12,21,67 bright white on blue explode shadow
+
+REM rowcol 18,28 "████  █  █   █   █▄▄█ █  █" bri yellow
+REM delay 2
+REM rowcol 8,18"█▀▀█ █▀█▀█  ██▌ █▀█▀█ ███ █▀▀█ █▀█▀█ ███ █▀▀█ " bri yellow
+REM delay 2
+REM rowcol 17,28 "██ ▐▌ █  █   █   █    █  █" bri yellow
+REM delay 2
+REM rowcol 9,18"█      █   ▐  █   █    █  █      █    █  █ " bri yellow
+REM delay 2
+REM rowcol 16,28 "████  █▄▄█   █   █    █▄▄█" bri yellow
+REM delay 2
+REM rowcol 10,18"▀▀▀▄   █   █▀▀█   █    █  ▀▀▀▄   █    █  █     " bri yellow
+REM delay 2
+REM rowcol 15,28 "██ ▐▌ █▀▀█ ▀▀█▀▀ █▀▀█ █  █" bri yellow
+REM delay 2
+REM rowcol 11,18"   █   █   █  █   █    █     █   █    █  █ " bri yellow
+REM delay 2
+REM rowcol 14,28 "████" bri yellow
+REM delay 2
+REM rowcol 12,18"█▄▄█  ▄█▄ ▄█  █▄ ▄█▄  ███ █▄▄█  ▄█▄  ███ █▄▄█ " bri yellow
+REM delay 5
+
+REM   AND PLAY A LITTLE TUNE.
+REM beep /F392 /D2;
+REM beep /F392 /D1;
+REM beep /F523 /D7;
+REM delay 10
+REM REM     PUT UP AN EXPLANATION WINDOW IN THE CORNER
+ window 1,49,13,79  black on white explode shadow
+
+ rowcol 2,51 " Представляемый пакет-это "  magenda on white
+ rowcol 3,51 " прекрасное средство для  "  black on white
+ rowcol 4,51 " использования в научных  "  black on white
+ rowcol 5,51 " исследованиях по         "  black on white
+ rowcol 6,51 " прикладной статистике и  "  black on white
+ rowcol 7,51 " регрессионному анализу.  "  black on white
+ rowcol 8,51 " ПОЛЬЗУЙТЕСЬ нашим пакетом!"  magenta on white
+ rowcol 9,51 " И Вы сможете легко решить "  magenta on white
+ rowcol 10,51 " ряд проблемм по анализу и"  black on white
+ rowcol 11,51 " математической обработке "  black on white
+ rowcol 12,51 " эмпирических данных.     "  black on white
+REM     FINALLY, LET THEM HIT ANY KEY TO FINISH THIS DEMO
+

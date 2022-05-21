@@ -1,0 +1,15 @@
+Tasks
+
+Kirill:
+1. Change main.cpp
+2. Test main.cpp
+3. Commit changes
+4. Release changes
+5. Change code style
+
+Arsenii:
+1. Check plan.txt
+2. Approve changes
+3. Revert some changes
+4. Commit
+5. Push to GitHub

@@ -1,0 +1,24 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <book xml:id="simple_book" xmlns="http://docbook.org/ns/docbook" version="5.0">
+   <title>Моргунов Арсений</title>
+   <chapter xml:id="main">
+     <title>Главный модуль</title>
+     <para>Приложения для добавления и работы с заметками</para>
+   </chapter>
+   <chapter xml:id="database">
+     <title>База данных</title>
+     <para>Для хранения заметок пользователей</para>
+   </chapter>
+   <chapter xml:id="export">
+     <title>PDF экспорт</title>
+     <para>Модуль для экспорта заметок к PDF формат</para>
+   </chapter>
+   <chapter xml:id="user_introdution">
+     <title>Руководство пользователя</title>
+     <para>Пользователь может работать с заметками (добавлять, удалять или изменять)</para>
+   </chapter>
+   <chapter xml:id="dev_introdution">
+     <title>Руководство программиста</title>
+     <para>Придерживайтесь стандарта кодирования C++</para>
+   </chapter>
+ </book>

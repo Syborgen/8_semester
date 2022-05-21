@@ -1,0 +1,7 @@
+Note fastSearch(){
+	
+}
+
+void createNoteLabel(){
+	
+}

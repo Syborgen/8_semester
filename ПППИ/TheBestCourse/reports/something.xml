@@ -1,0 +1,24 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <book xml:id="simple_book" xmlns="http://docbook.org/ns/docbook" version="5.0">
+   <title>Данильчук Кирилл</title>
+   <chapter xml:id="main">
+     <title>Главный модуль</title>
+     <para>Консольное приложение для эмуляции игровых приставок</para>
+   </chapter>
+   <chapter xml:id="database">
+     <title>База данных</title>
+     <para>В приложении используется база данных для поддержки сохраненнок игры</para>
+   </chapter>
+   <chapter xml:id="emulator">
+     <title>Эмулятор</title>
+     <para>Модуль для иммуляции различных консолей</para>
+   </chapter>
+   <chapter xml:id="user_introdution">
+     <title>Руководство пользователя</title>
+     <para>Пользователь может запускать различные игры (из различных консолей)</para>
+   </chapter>
+   <chapter xml:id="dev_introdution">
+     <title>Руководство программиста</title>
+     <para>Придерживайтесь стандарта кодирования</para>
+   </chapter>
+ </book>
